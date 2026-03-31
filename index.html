@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Daraxtlar dalolatnomasi platformasi</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="container topbar-inner">
+      <div class="brand">
+        <div class="brand-badge">🌳</div>
+        <div>
+          <div>Daraxt ID boshqaruv platformasi</div>
+          <div class="small">Qidiruv · Filtr · Copy · Navigatsiya</div>
+        </div>
+      </div>
+      <div class="topbar-actions">
+        <div class="quick-meta">
+          <div class="meta-pill">Dalolatnoma: <strong>0011977</strong></div>
+          <div class="meta-pill">Sana: <strong>11.03.2026</strong></div>
+          <div class="meta-pill">Hudud: <strong>Bo'stonliq tumani</strong></div>
+        </div>
+        <button class="theme-toggle" id="themeToggle" type="button" aria-label="Light/Dark mode">🌙 Dark</button>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <div class="hero-card">
+        <h1>
+          O‘zbekiston Respublikasi Prezidentining “Respublikada ko‘kalamzorlashtirish ishlarini jadallashtirish, daraxtlar muhofazasini yanada samarali tashkil etish chora-tadbirlari to‘g‘risida” 2021 yil 30 dekabrdagi PF-46-son Farmoni ijrosini ta’minlash maqsadida o‘z hududidagi hamda biriktirilgan joylardagi ko‘p yillik daraxtlarni mas’ullarga biriktirish
+        </h1>
+        <div class="subline">
+          <strong>DALOLATNOMASI 0011977</strong><br>
+          Sana 11.03.2026 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Bo'stonliq tumani<br>
+          Bo'stonliq tumani Kichiksoy MFY MFY hududidagi
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="legend-wrap">
+        <div class="legend-head">
+          <div>
+            <strong>Info bar:</strong> qaysi rang qaysi daraxtga tegishli ekanligi shu yerda ko‘rsatilgan.
+          </div>
+          <div class="small">Har tur uchun alohida rang + icon berilgan</div>
+        </div>
+        <div class="legend-grid" id="legendGrid"></div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="filters">
+        <div class="filters-grid">
+          <div class="field">
+            <label for="searchInput">ID yoki daraxt nomi bo‘yicha qidiruv</label>
+            <input id="searchInput" type="text" placeholder="Masalan: T001598532 yoki Qrim qarag'ayi">
+          </div>
+          <div class="field">
+            <label for="typeFilter">Daraxt turi</label>
+            <select id="typeFilter"></select>
+          </div>
+          <div class="field">
+            <label for="statusFilter">Holati</label>
+            <select id="statusFilter">
+              <option value="">Barchasi</option>
+              <option value="Sog'lom">Sog'lom</option>
+              <option value="Kasallangan">Kasallangan</option>
+            </select>
+          </div>
+          <div class="field">
+            <label for="sortFilter">Saralash</label>
+            <select id="sortFilter">
+              <option value="id-asc">ID bo‘yicha (A-Z)</option>
+              <option value="id-desc">ID bo‘yicha (Z-A)</option>
+              <option value="type-asc">Daraxt nomi bo‘yicha</option>
+              <option value="height-desc">Balandligi bo‘yicha</option>
+              <option value="circ-desc">Aylana bo‘yicha</option>
+            </select>
+          </div>
+          <div class="actions">
+            <button class="btn btn-primary" id="applyBtn">Filtrlash</button>
+            <button class="btn btn-secondary" id="resetBtn">Tozalash</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="summary">
+        <div class="summary-box">
+          <div class="k">Jami daraxtlar</div>
+          <div class="v" id="totalCount">0</div>
+        </div>
+        <div class="summary-box">
+          <div class="k">Filtrdan o‘tganlar</div>
+          <div class="v" id="filteredCount">0</div>
+        </div>
+        <div class="summary-box">
+          <div class="k">Sog'lom</div>
+          <div class="v" id="healthyCount">0</div>
+        </div>
+        <div class="summary-box">
+          <div class="k">Kasallangan</div>
+          <div class="v" id="sickCount">0</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="layout">
+      <div id="featureArea"></div>
+
+      <aside class="list-panel">
+        <div class="panel-head">
+          <strong>Mos kelgan ID lar ro‘yxati</strong>
+          <span class="small" id="resultCount">0 ta natija</span>
+        </div>
+        <div class="result-list" id="resultList"></div>
+      </aside>
+    </section>
+
+    <footer class="footer">
+      <div class="footer-card">
+        <div class="footer-title">"QODIRXUJA - NOSIRBEK" mas`uliyati cheklangan jamiyati</div>
+        <div class="footer-sub">Telefon raqam: 93 579 86 90 &nbsp;&nbsp; Ijrochi: U.Kasimov</div>
+      </div>
+    </footer>
+  </main>
+
+  <div class="last-copy" id="lastCopyWrap" hidden>
+    <strong>Oxirgi copy qilingan ID</strong>
+    <div class="copy-value" id="lastCopiedId">—</div>
+  </div>
+
+  <script src="data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
