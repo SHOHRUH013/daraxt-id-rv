@@ -10422,10 +10422,4 @@ window.TREE_DATA = [
     "height": 1,
     "circumference": 8
   }
-  const newData = data.map(item => ({
-  ...item,
-  id: item.id.replace(/^T/, '')
-}));
-
-console.log(newData);
 ];
