@@ -1,9 +1,17 @@
-const newData = window.TREE_DATA.map(item => ({
-  ...item,
-  id: item.id.replace(/^T/, '')
-}));
+window.TREE_DATA = window.TREE_DATA.map(item => {
+  let newId = item.id;
 
-console.log(newData);
+  if (newId !== undefined && newId !== null) {
+    newId = String(newId).replace(/^T/, '');
+  }
+
+  return {
+    ...item,
+    id: newId
+  };
+});
+
+console.log(window.TREE_DATA);
 
 const speciesColorMap = {
   "Оқ қайин": "#f7b2c4",
