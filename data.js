@@ -2,378 +2,378 @@ window.TREE_DATA = [
   {
     "treeType": "Майда мевали гилос",
     "status": "Sog'lom",
-    "id": "T001601870",
+    "id": "001601870",
     "height": 1,
     "circumference": 10
   },
   {
     "treeType": "Майда мевали гилос",
     "status": "Sog'lom",
-    "id": "T001601871",
+    "id": "001601871",
     "height": 1,
     "circumference": 10
   },
   {
     "treeType": "Майда мевали гилос",
     "status": "Sog'lom",
-    "id": "T001601868",
+    "id": "001601868",
     "height": 1,
     "circumference": 10
   },
   {
     "treeType": "Майда мевали гилос",
     "status": "Sog'lom",
-    "id": "T001601866",
+    "id": "001601866",
     "height": 2,
     "circumference": 10
   },
   {
     "treeType": "Qrim qarag'ayi",
     "status": "Sog'lom",
-    "id": "T001588935",
+    "id": "001588935",
     "height": 3,
     "circumference": 35
   },
   {
     "treeType": "Qrim qarag'ayi",
     "status": "Sog'lom",
-    "id": "T001588963",
+    "id": "001588963",
     "height": 3,
     "circumference": 35
   },
   {
     "treeType": "Qrim qarag'ayi",
     "status": "Sog'lom",
-    "id": "T001588951",
+    "id": "001588951",
     "height": 3,
     "circumference": 30
   },
   {
     "treeType": "Qrim qarag'ayi",
     "status": "Sog'lom",
-    "id": "T001588915",
+    "id": "001588915",
     "height": 2,
     "circumference": 30
   },
   {
     "treeType": "Qrim qarag'ayi",
     "status": "Sog'lom",
-    "id": "T001589165",
+    "id": "001589165",
     "height": 2,
     "circumference": 10
   },
   {
     "treeType": "Qrim qarag'ayi",
     "status": "Sog'lom",
-    "id": "T001588745",
+    "id": "001588745",
     "height": 3,
     "circumference": 35
   },
   {
     "treeType": "Qrim qarag'ayi",
     "status": "Sog'lom",
-    "id": "T001588760",
+    "id": "001588760",
     "height": 3,
     "circumference": 20
   },
   {
     "treeType": "Qrim qarag'ayi",
     "status": "Sog'lom",
-    "id": "T001588792",
+    "id": "001588792",
     "height": 3,
     "circumference": 30
   },
   {
     "treeType": "Qrim qarag'ayi",
     "status": "Sog'lom",
-    "id": "T001595748",
+    "id": "001595748",
     "height": 2,
     "circumference": 15
   },
   {
     "treeType": "Qrim qarag'ayi",
     "status": "Sog'lom",
-    "id": "T001595753",
+    "id": "001595753",
     "height": 2,
     "circumference": 9
   },
   {
     "treeType": "Qrim qarag'ayi",
     "status": "Sog'lom",
-    "id": "T001595756",
+    "id": "001595756",
     "height": 2,
     "circumference": 4
   },
   {
     "treeType": "Qrim qarag'ayi",
     "status": "Sog'lom",
-    "id": "T001595799",
+    "id": "001595799",
     "height": 2,
     "circumference": 10
   },
   {
     "treeType": "Qrim qarag'ayi",
     "status": "Sog'lom",
-    "id": "T001595805",
+    "id": "001595805",
     "height": 2,
     "circumference": 10
   },
   {
     "treeType": "Qrim qarag'ayi",
     "status": "Sog'lom",
-    "id": "T001595823",
+    "id": "001595823",
     "height": 1,
     "circumference": 10
   },
   {
     "treeType": "Qrim qarag'ayi",
     "status": "Sog'lom",
-    "id": "T001597566",
+    "id": "001597566",
     "height": 3,
     "circumference": 23
   },
   {
     "treeType": "Qrim qarag'ayi",
     "status": "Sog'lom",
-    "id": "T001599267",
+    "id": "001599267",
     "height": 1,
     "circumference": 20
   },
   {
     "treeType": "Qrim qarag'ayi",
     "status": "Sog'lom",
-    "id": "T001599270",
+    "id": "001599270",
     "height": 1,
     "circumference": 20
   },
   {
     "treeType": "Qrim qarag'ayi",
     "status": "Sog'lom",
-    "id": "T001599273",
+    "id": "001599273",
     "height": 1,
     "circumference": 22
   },
   {
     "treeType": "Qrim qarag'ayi",
     "status": "Sog'lom",
-    "id": "T001599279",
+    "id": "001599279",
     "height": 1,
     "circumference": 20
   },
   {
     "treeType": "Qrim qarag'ayi",
     "status": "Sog'lom",
-    "id": "T001599282",
+    "id": "001599282",
     "height": 2,
     "circumference": 20
   },
   {
     "treeType": "Qrim qarag'ayi",
     "status": "Sog'lom",
-    "id": "T001588815",
+    "id": "001588815",
     "height": 3,
     "circumference": 20
   },
   {
     "treeType": "Qrim qarag'ayi",
     "status": "Sog'lom",
-    "id": "T001588877",
+    "id": "001588877",
     "height": 3,
     "circumference": 25
   },
   {
     "treeType": "Qrim qarag'ayi",
     "status": "Sog'lom",
-    "id": "T001588887",
+    "id": "001588887",
     "height": 3,
     "circumference": 30
   },
   {
     "treeType": "Qrim qarag'ayi",
     "status": "Sog'lom",
-    "id": "T001588899",
+    "id": "001588899",
     "height": 3,
     "circumference": 25
   },
   {
     "treeType": "Qrim qarag'ayi",
     "status": "Sog'lom",
-    "id": "T001588906",
+    "id": "001588906",
     "height": 3,
     "circumference": 20
   },
   {
     "treeType": "Qrim qarag'ayi",
     "status": "Sog'lom",
-    "id": "T001588919",
+    "id": "001588919",
     "height": 3,
     "circumference": 30
   },
   {
     "treeType": "Qrim qarag'ayi",
     "status": "Sog'lom",
-    "id": "T001593827",
+    "id": "001593827",
     "height": 2,
     "circumference": 20
   },
   {
     "treeType": "Qrim qarag'ayi",
     "status": "Sog'lom",
-    "id": "T001593851",
+    "id": "001593851",
     "height": 2,
     "circumference": 35
   },
   {
     "treeType": "Qrim qarag'ayi",
     "status": "Sog'lom",
-    "id": "T001596040",
+    "id": "001596040",
     "height": 1,
     "circumference": 10
   },
   {
     "treeType": "Qrim qarag'ayi",
     "status": "Sog'lom",
-    "id": "T001596065",
+    "id": "001596065",
     "height": 2,
     "circumference": 8
   },
   {
     "treeType": "Qrim qarag'ayi",
     "status": "Sog'lom",
-    "id": "T001596075",
+    "id": "001596075",
     "height": 1,
     "circumference": 3
   },
   {
     "treeType": "Qrim qarag'ayi",
     "status": "Sog'lom",
-    "id": "T001596079",
+    "id": "001596079",
     "height": 2,
     "circumference": 8
   },
   {
     "treeType": "Qrim qarag'ayi",
     "status": "Sog'lom",
-    "id": "T001596081",
+    "id": "001596081",
     "height": 1,
     "circumference": 8
   },
   {
     "treeType": "Qrim qarag'ayi",
     "status": "Sog'lom",
-    "id": "T001596085",
+    "id": "001596085",
     "height": 1,
     "circumference": 6
   },
   {
     "treeType": "Qrim qarag'ayi",
     "status": "Sog'lom",
-    "id": "T001596087",
+    "id": "001596087",
     "height": 1,
     "circumference": 6
   },
   {
     "treeType": "Qrim qarag'ayi",
     "status": "Sog'lom",
-    "id": "T001596092",
+    "id": "001596092",
     "height": 1,
     "circumference": 4
   },
   {
     "treeType": "Qrim qarag'ayi",
     "status": "Sog'lom",
-    "id": "T001596102",
+    "id": "001596102",
     "height": 2,
     "circumference": 4
   },
   {
     "treeType": "Qrim qarag'ayi",
     "status": "Sog'lom",
-    "id": "T001596108",
+    "id": "001596108",
     "height": 1,
     "circumference": 5
   },
   {
     "treeType": "Qrim qarag'ayi",
     "status": "Sog'lom",
-    "id": "T001596124",
+    "id": "001596124",
     "height": 1,
     "circumference": 8
   },
   {
     "treeType": "Qrim qarag'ayi",
     "status": "Sog'lom",
-    "id": "T001596171",
+    "id": "001596171",
     "height": 1,
     "circumference": 8
   },
   {
     "treeType": "Qrim qarag'ayi",
     "status": "Sog'lom",
-    "id": "T001597568",
+    "id": "001597568",
     "height": 3,
     "circumference": 30
   },
   {
     "treeType": "Qrim qarag'ayi",
     "status": "Sog'lom",
-    "id": "T001597571",
+    "id": "001597571",
     "height": 3,
     "circumference": 30
   },
   {
     "treeType": "Qrim qarag'ayi",
     "status": "Sog'lom",
-    "id": "T001597577",
+    "id": "001597577",
     "height": 3,
     "circumference": 33
   },
   {
     "treeType": "Qrim qarag'ayi",
     "status": "Sog'lom",
-    "id": "T001597588",
+    "id": "001597588",
     "height": 1,
     "circumference": 25
   },
   {
     "treeType": "Qrim qarag'ayi",
     "status": "Sog'lom",
-    "id": "T001597590",
+    "id": "001597590",
     "height": 3,
     "circumference": 24
   },
   {
     "treeType": "Qrim qarag'ayi",
     "status": "Sog'lom",
-    "id": "T001597615",
+    "id": "001597615",
     "height": 2,
     "circumference": 33
   },
   {
     "treeType": "Qrim qarag'ayi",
     "status": "Sog'lom",
-    "id": "T001597619",
+    "id": "001597619",
     "height": 3,
     "circumference": 25
   },
   {
     "treeType": "Qrim qarag'ayi",
     "status": "Sog'lom",
-    "id": "T001597627",
+    "id": "001597627",
     "height": 1,
     "circumference": 25
   },
   {
     "treeType": "Qrim qarag'ayi",
     "status": "Sog'lom",
-    "id": "T001597629",
+    "id": "001597629",
     "height": 2,
     "circumference": 27
   },
   {
     "treeType": "Qrim qarag'ayi",
     "status": "Sog'lom",
-    "id": "T001597633",
+    "id": "001597633",
     "height": 2,
     "circumference": 25
   },
@@ -10422,4 +10422,10 @@ window.TREE_DATA = [
     "height": 1,
     "circumference": 8
   }
+  const newData = data.map(item => ({
+  ...item,
+  id: item.id.replace(/^T/, '')
+}));
+
+console.log(newData);
 ];
