@@ -2,7 +2,9 @@ const TREE_DATA = window.TREE_DATA || [];
 
 const newData = TREE_DATA.map(item => ({
   ...item,
-  id: item.id ? item.id.replace(/^T/, '') : item.id
+  id: typeof item.id === 'string'
+    ? item.id.replace(/^T/, '')
+    : item.id
 }));
 
 console.log(newData);
